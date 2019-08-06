@@ -23,9 +23,7 @@ class HomeTabApp extends StatefulWidget {
 
 class HomeTabState extends State<HomeTabApp> {
   BannerAd myBanner = BannerAd(
-    adUnitId: Platform.isAndroid
-        ? "ca-app-pub-3880549918490153/6939948373"
-        : 'ca-app-pub-3880549918490153/6294609797',
+    adUnitId: Platform.isAndroid ? "" : '',
     size: AdSize.banner,
     listener: (MobileAdEvent event) {
       print("BannerAd event is $event");

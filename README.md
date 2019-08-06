@@ -13,6 +13,8 @@ In order to use this app you need to ;
 - Create Firebase project and then put the GoogleService.json files in to the
   project.
 - Sign in with developer account (Xcode)
+- And put some data on Firebase Database :) (You can see the model on
+  models/games or models/movies)
 
 More detail:
 

@@ -13,9 +13,7 @@ class _SplashState extends State<Splash> {
   MobileAdEvent event;
 
   InterstitialAd myInterstitial = InterstitialAd(
-    adUnitId: Platform.isAndroid
-        ? "ca-app-pub-3880549918490153/3000703364"
-        : "ca-app-pub-3880549918490153/7165425063",
+    adUnitId: Platform.isAndroid ? "" : "",
     listener: (MobileAdEvent event) {},
   );
 
@@ -50,9 +48,7 @@ class _SplashState extends State<Splash> {
       }
     };
 
-    String admobId = Platform.isAndroid
-        ? 'ca-app-pub-3880549918490153~3407117226'
-        : 'ca-app-pub-3880549918490153~4874303643';
+    String admobId = Platform.isAndroid ? '' : '';
 
     FirebaseAdMob.instance.initialize(appId: admobId);
     myInterstitial

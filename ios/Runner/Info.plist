@@ -9,7 +9,7 @@
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
 	<string>for show favorite dates.</string>
 	<key>GADApplicationIdentifier</key>
-	<string>ca-app-pub-3880549918490153~4874303643</string>
+	<string></string>
 	<key>io.flutter.embedded_views_preview</key>
 	<true/>
 	<key>NSAppTransportSecurity</key>
