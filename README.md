@@ -23,6 +23,7 @@ With this project, you can learn;
 - Creating splash screen with Interstitial
 - Setup and read data from Firebase database
 - How to create Firebase Model
+- How to create Dark Mode
 - How to use Admob Banner and Intersitital
 - How to make http request
 - How to create http model
