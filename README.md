@@ -81,6 +81,6 @@ With this project, you can learn;
 - edit key.properties file
 - flutter build appbundle --target-platform android-arm,android-arm64
 
-Waiting your likes and comments. Thank you
+Enjoy.
 
 Version 1.0.0
